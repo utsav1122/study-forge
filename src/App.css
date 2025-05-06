@@ -1,0 +1,75 @@
+/* write your css here */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.homepage_bg {
+  background-image: url(./assets/Images/bghome.svg);
+}
+.inputStyle {
+  @apply rounded-lg bg-richblack-700 p-3 text-[16px] leading-[24px] text-richblack-5 shadow-[0_1px_0_0] shadow-white/50 placeholder:text-richblack-400 focus:outline-none;
+}
+.labelStyle {
+  @apply text-[14px] text-richblack-5;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Works for Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+details > summary {
+  list-style: none;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+
+.x > .xsummary::after {
+  content: "︿";
+  font-weight: 900;
+  color: #999daa;
+  padding-bottom: 4px;
+}
+.x[open] .xsummary::after {
+  content: "﹀";
+  font-weight: 900;
+  color: #999daa;
+  padding-top: 8px;
+}
+
+.y > .ysummary::before {
+  content: "︿";
+  font-weight: 900;
+  color: #999daa;
+  padding-bottom: 4px;
+}
+.y[open] .ysummary::before {
+  content: "﹀";
+  font-weight: 900;
+  color: #999daa;
+  padding-top: 8px;
+}
+.z > .zsummary::before {
+  content: "︿";
+  font-weight: 900;
+  color: #999daa;
+  padding-bottom: 4px;
+}
+.z[open] .zsummary::before {
+  content: "﹀";
+  font-weight: 900;
+  color: #999daa;
+  padding-top: 8px;
+}

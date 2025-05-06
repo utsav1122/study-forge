@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "bcrypt": "^5.0.1",
+    "cloudinary": "^1.41.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "deep-email-validator": "^0.1.21",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-fileupload": "^1.4.0",
+    "file-uploader": "^1.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.3.0",
+    "multer": "^1.4.5-lts.2",
+    "nodemailer": "^6.9.3",
+    "nodemon": "^1.14.9",
+    "openai": "^4.90.0",
+    "otp-generator": "^4.0.1",
+    "razorpay": "^2.8.6"
+  }
+}
